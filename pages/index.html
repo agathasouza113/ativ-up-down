@@ -8,21 +8,22 @@
     <title>Sistema de Envio de Currículo</title>
 </head>
 <body>
+    <h1>Sistema de Envio de Currículo</h1>
     <div class="container">
-        <h1>Sistema de Envio de Currículo</h1>
         <p>Nome:</p>
         <input type="text" id="nome">
         <p>Email:</p>
-        <input type="email" id="email">
+        <input type="email" id="email" placeholder="seuemail@dominio.com">
         <p>Telefone:</p>
-        <input type="tel" id="telefone">
+        <input type="tel" id="telefone" placeholder="12345678910">
         <input type="file" id="arquivo" accept="pdf., docs., docx.">
 
         <button onclick="enviarCurriculo()">Enviar Currículo</button>
-
+    </div>
+    <div class="information-container">
         <p id="information"></p>
         <a href="../files/comprovante.pdf" id="download" style="display:none;">Baixar comprovante</a>
-    </div>
+        </div>
     <script src="../scripts/script.js"></script>
 </body>
 </html>
