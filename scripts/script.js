@@ -17,6 +17,8 @@ function enviarCurriculo() {
         return;        
     }
 
+    document.getElementsByClassName("information-container")[0].style.display = "flex";
+
     document.getElementById("information").innerHTML = `
         Concluido com sucesso <br>
         Nome do Arquivo: ${arquivo.name} <br>
