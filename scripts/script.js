@@ -20,7 +20,7 @@ function enviarCurriculo() {
     document.getElementsByClassName("information-container")[0].style.display = "flex";
 
     document.getElementById("information").innerHTML = `
-        Concluido com sucesso <br>
+        <span class="sucess"> Concluido com sucesso</span>  <br>
         Nome do Arquivo: ${arquivo.name} <br>
         Tipo: ${arquivo.type} <br>
         Tamanho: ${(arquivo.size / 1024).toFixed(2)} KB
